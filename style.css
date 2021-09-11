@@ -1,0 +1,126 @@
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#hero{
+    height: 500px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.hero_div{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.hero_div img{
+    width: 100%;
+}
+.hero_div h1{
+    font-size: 50px;
+}
+.hero_div h1 span{
+    color: orange;
+}
+.hero_div p{
+    color:dimgray;
+
+}
+.hero_div a{
+    background-color: tomato;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+#dream_aria{
+    height: 700px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream_aria_div{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.dream_aria_div img{
+    width: 100%;
+}
+.dream_aria_div h1{
+    font-size: 50px;
+}
+.dream_aria_div p{
+    color: dimgray;
+}
+.dream_aria_div a{
+    background-color: tomato;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+#experience{
+    height: 700px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience_title{
+    font-size: 50px;
+}
+.experience_div{
+    height: 400px;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    background: white;
+    
+}
+.experience_div h2{
+    font-size: 40px;
+}
+.experience_div h3{
+    color: orange;
+}
+.experience_div p{
+    color: dimgray;
+}
+#full_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato) ;
+    border-image-slice: 1;
+}
+#baby_developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan) ;
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
+footer p{
+    color: dimgray;
+}
+footer a{
+    text-decoration: none;
+    color: dimgray;
+}
+footer a:hover{
+    color: tomato;
+}
